@@ -35,7 +35,7 @@ jobs:
       - name: Run preprocessing script
         run: |
           cd preprocessing
-          python automate_Muh_Iqbal_Hardiyanto.py \
+          python automate_Muh-Iqbal-H.py \
             --input ../Crop_recommendation.csv \
             --output_dir Crop_recommendation_processed
 
@@ -52,4 +52,4 @@ jobs:
         with:
           name: processed-data
           path: preprocessing/Crop_recommendation_processed/
-          retention-days: 8
+          retention-days: 6
