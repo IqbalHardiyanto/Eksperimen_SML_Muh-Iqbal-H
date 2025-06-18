@@ -20,6 +20,7 @@ def preprocess_and_split_data(input_path, output_dir=None, test_size=0.3, val_si
     tuple: (df_preprocessed, split_info) jika output_dir=None
     """
     
+    # load data
     df = pd.read_csv(input_path)
     
     df_clean = df.dropna()
