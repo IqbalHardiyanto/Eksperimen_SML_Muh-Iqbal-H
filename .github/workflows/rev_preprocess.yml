@@ -52,4 +52,4 @@ jobs:
         with:
           name: processed-data
           path: preprocessing/Crop_recommendation_processed/
-          retention-days: 6
+          retention-days: 8
