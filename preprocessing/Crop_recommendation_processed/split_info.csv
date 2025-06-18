@@ -1,0 +1,5 @@
+train_size,369
+val_size,923
+test_size,554
+total_size,1846
+random_state,42
